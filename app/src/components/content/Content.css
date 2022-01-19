@@ -1,0 +1,22 @@
+.cards{
+    display:flex;
+
+}
+.card{
+    min-height: 200px;
+    width: 300px;
+    padding:20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 15px 30px rgba(0,0,0,.2);
+    background:white;
+    margin:10px 4px;
+    transition: 0.3s;
+}
+
+.cards .card button{
+    background-color: rgb(61,175,181);
+}
