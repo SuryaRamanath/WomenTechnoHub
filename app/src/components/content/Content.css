@@ -27,6 +27,7 @@
     background-color: transparent;
     width:150px;
     height: 30px;
+    border: 1px solid ;
     
 }
 .category-container label{

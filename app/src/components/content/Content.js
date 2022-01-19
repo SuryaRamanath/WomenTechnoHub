@@ -1,26 +1,45 @@
 import React from "react";
+import { useState } from "react";
 import "./Content.css";
 
 const Content = () => {
+  const [Value, setValue] = useState("All");
+
+  const categories = [
+    {
+      name: "All",
+    },
+    {
+      name: "scholarship",
+    },
+    {
+      name: "hackathon",
+    },
+    {
+      name: "internship",
+    },
+    {
+      name: "job",
+    },
+  ];
+  const handleChange = (event) => {
+    setValue(event.target.value);
+  };
+
   return (
     <div className="content-container">
-      {/* <select>
-                 <option value="category1"></option>
-                 <option value="category2"></option>
-                 <option value="category3"></option>
-                 <option value="category4"></option>
-             </select> */}
-             <div className="category-container">
-      <label for="category">Choose category:</label>
-      <select name="category" id="category">
-        <option value="volvo">Volvo</option>
-        <option value="saab">Saab</option>
-        <option value="opel">Opel</option>
-        <option value="audi">Audi</option>
-      </select>
+      <div className="category-container">
+        <label for="category">Choose category:</label>
+        <select name="category" id="category" onChange={handleChange}>
+          {categories.map((item) => (
+            <option key={item.id} value={item.name}>
+              {item.name}
+            </option>
+          ))}
+        </select>
       </div>
-      
 
+      <h1>{Value}</h1>
 
       <div className="cards">
         <div className="card">
