@@ -20,3 +20,15 @@
 .cards .card button{
     background-color: rgb(61,175,181);
 }
+.category-container{
+    padding:20px;
+}
+.category-container select{
+    background-color: transparent;
+    width:150px;
+    height: 30px;
+    
+}
+.category-container label{
+    padding-right: 10px;
+}
