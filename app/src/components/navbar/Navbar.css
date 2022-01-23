@@ -1,4 +1,6 @@
-.container img{
-    height: auto;
-    width:auto;
+.navbar img{
+    height: 60px;
+    width:300px;
+    left:0;
 }
+
