@@ -43,29 +43,54 @@ const Content = () => {
             <div className="cards-container">
       <div className="cards">
       <div className="card">
-          <img src="https://cdn5.vectorstock.com/i/1000x1000/02/29/hackathon-background-hack-marathon-coding-event-vector-23650229.jpg" alt="" />
           <h2>Disaster management hackathon of 2022</h2> 
+          <hr></hr>
           <h5>Company</h5>
           <p>Eligibility goes here</p>
           <h4>closing time</h4>
           <button>Apply now</button>
         </div>
         <div className="card">
-          <img src="https://cdn5.vectorstock.com/i/1000x1000/02/29/hackathon-background-hack-marathon-coding-event-vector-23650229.jpg" alt="" />
           <h2>Disaster management hackathon of 2022</h2> 
+          <hr></hr>
           <h5>Company</h5>
           <p>Eligibility goes here</p>
           <h4>closing time</h4>
           <button>Apply now</button>
         </div>
         <div className="card">
-          <img src="https://cdn5.vectorstock.com/i/1000x1000/02/29/hackathon-background-hack-marathon-coding-event-vector-23650229.jpg" alt="" />
           <h2>Disaster management hackathon of 2022</h2> 
+          <hr></hr>
           <h5>Company</h5>
           <p>Eligibility goes here</p>
           <h4>closing time</h4>
           <button>Apply now</button>
         </div>
+        <div className="card">
+          <h2>Disaster management hackathon of 2022</h2> 
+          <hr></hr>
+          <h5>Company</h5>
+          <p>Eligibility goes here</p>
+          <h4>closing time</h4>
+          <button>Apply now</button>
+        </div>
+        <div className="card">
+          <h2>Disaster management hackathon of 2022</h2> 
+          <hr></hr>
+          <h5>Company</h5>
+          <p>Eligibility goes here</p>
+          <h4>closing time</h4>
+          <button>Apply now</button>
+        </div>
+        <div className="card">
+          <h2>Disaster management hackathon of 2022</h2> 
+          <hr></hr>
+          <h5>Company</h5>
+          <p>Eligibility goes here</p>
+          <h4>closing time</h4>
+          <button>Apply now</button>
+        </div>
+        
        
       </div>
       </div>

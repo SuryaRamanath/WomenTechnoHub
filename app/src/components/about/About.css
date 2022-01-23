@@ -1,0 +1,38 @@
+.about-container{
+    
+    width:80vw;
+   margin: 0 auto;
+}
+.about-row{
+    width: 60vw;
+    margin:auto;
+    display: flex;
+   text-align: start;
+   
+}
+.about-col .about-title{
+    margin:50px;
+}
+
+.about-col .about{
+    color: #555;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+}
+
+.about-col img{
+    width:500px;
+    height: auto;
+    margin:50px;
+}
+.last-lines{
+    background-color: black;
+    color: white;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}

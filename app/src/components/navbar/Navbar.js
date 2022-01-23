@@ -5,7 +5,15 @@ import './Navbar.css'
 const Navbar = () => {
     return (
         <div className='navbar'>
-            <img src={logo} alt="women techno hub" />
+            
+            <div className="container">
+            <a href="#"><img src={logo} alt="women techno hub" /></a>
+            <ul>
+            <li><a href="#" className="current">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
         </div>
     )
 }
