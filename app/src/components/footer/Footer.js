@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <footer>
             <div className="footer-container">
-                <h4 className='get-in-touch'>get in touch</h4>
+                <h3 className='get-in-touch'>for further info and clarifications</h3>
             <p className='contact'>CONTACT</p>
                 <div className="row">
                     <div className="col">
