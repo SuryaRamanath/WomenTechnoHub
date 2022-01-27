@@ -30,9 +30,9 @@
 
 }
 .card{
-    width: 400px;
+    width: 290px;
     padding-bottom:20px;
-    border-radius: 35px;
+    border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,9 +49,10 @@
     overflow: hidden;
 } */
 .cards .card h2{
-    padding:15px;
-    font-weight: 400;
+    padding:10px;
+    font-weight: 600;
     line-height: 40px;
+    font-size: 1.2rem;
 }
 .cards .card h5{
     padding:0;

@@ -7,7 +7,7 @@ import {MdEmail} from 'react-icons/md'
 const Footer = () => {
     const today = new Date();
     return (
-        <footer>
+        <footer id="contact">
             <div className="footer-container">
                 <h3 className='get-in-touch'>for further info and clarifications</h3>
             <p className='contact'>CONTACT</p>
@@ -16,7 +16,7 @@ const Footer = () => {
                       
                        <li><FaPhoneAlt className='icons'/> +91 9746385253</li>
                        <li><FaPhoneAlt className='icons'/> +91 9745465290</li>
-                       <li><MdEmail className='icons'/> womenth@gmail.com</li>
+                       <li><MdEmail className='icons'/> womentechnohub@gmail.com</li>
                        </div>
                     
                         <div className="col">
@@ -27,7 +27,7 @@ const Footer = () => {
                                 <br></br>
                                 <input type="email" name="email" className="form-control" placeholder="Your Email" required/><br/><br/>
                                 
-                                <textarea name="message" className="form-control" placeholder="Message"  rows="4" required></textarea> <br></br>
+                                <textarea name="message" className="form-control" placeholder="Message (include your branch and year of study)"  rows="4" required></textarea> <br></br>
                                 <input type="submit" className="form-control submit" value ="SEND" />
                                                     
                             </form>

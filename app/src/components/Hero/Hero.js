@@ -4,8 +4,13 @@ import hero from '../../assets/WTH3.webp'
 
 const Hero = () => {
   return( 
-  <div className='hero-container'>
-      <img src={hero} alt="" />
+  <div className='hero'>
+      
+      <div class="container">
+        <h1>You have landed at the right destination!</h1>
+        <p>Navigate through the tabs to explore more!!</p>
+      </div>
+    
   </div>
     
     
