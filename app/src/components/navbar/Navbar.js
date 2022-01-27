@@ -3,11 +3,6 @@ import logo from '../../assets/Asset 1.png';
 import './Navbar.css'
 
 
-
-import { HashLink as Link } from 'react-router-hash-link'
-import About from '../about/About';
-import Footer from '../footer/Footer';
-
 const Navbar = () => {
 
     const [click, setClick] = useState(false);
@@ -30,16 +25,20 @@ const Navbar = () => {
   }, [])
 
     return (
-        <div className='navbar' id="home">
+        <div className='navbar' >
             
             <nav className={navShrink ? 'navbar navbar-shrink': 'navbar'}>
             <a href="/"><img src={logo} alt="women techno hub" /></a>
 
            
             <ul className={click ? 'nav-menu active' : "nav-menu"}>
-            <li className="nav-item" onClick={closeMobileMenu}><Link to='#' smooth>Home</Link></li>
+
+            <li className="nav-item" onClick={closeMobileMenu}><a href='#home' smooth>Home</a></li>
+            <li className="nav-item" onClick={closeMobileMenu}><a href='#about' smooth>About</a></li>
+            <li className="nav-item" onClick={closeMobileMenu}><a href='#contact' smooth>Contact</a></li>
+            {/* <li className="nav-item" onClick={closeMobileMenu}><Link to='#' smooth>Home</Link></li>
             <li className="nav-item" onClick={closeMobileMenu}><Link to='#about' smooth>About</Link></li>
-            <li className="nav-item" onClick={closeMobileMenu}><Link to='#contact' smooth>Contact</Link></li>
+            <li className="nav-item" onClick={closeMobileMenu}><Link to='#contact' smooth>Contact</Link></li> */}
          
             
             </ul>

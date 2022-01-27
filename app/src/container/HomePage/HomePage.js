@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+
 
 
 import About from '../../components/about/About'
@@ -15,7 +15,7 @@ import Navbar from '../../components/navbar/Navbar'
 
 const HomePage = () => {
     return (
-        <Router>
+        
         <div>
           
         
@@ -27,7 +27,7 @@ const HomePage = () => {
             <Mentorship/>
             <Footer />
         </div>
-         </Router>
+       
     )
 }
 

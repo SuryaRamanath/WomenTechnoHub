@@ -14,9 +14,9 @@ const Footer = () => {
                 <div className="row">
                     <div className="col">
                       
-                       <li><FaPhoneAlt className='icons'/> +91 9746385253</li>
-                       <li><FaPhoneAlt className='icons'/> +91 9745465290</li>
-                       <li><MdEmail className='icons'/> womentechnohub@gmail.com</li>
+                     <li><FaPhoneAlt className='icons'/> <a href="tel:+91 9746385253">+91 9746385253</a> </li>
+                      <li><FaPhoneAlt className='icons'/>  <a href="tel:+91 9745465290">+91 9745465290</a> </li>
+                     <li><MdEmail className='icons'/>   <a href="mailto:womentechnohub@gmail.com">womentechnohub@gmail.com</a> </li>
                        </div>
                     
                         <div className="col">

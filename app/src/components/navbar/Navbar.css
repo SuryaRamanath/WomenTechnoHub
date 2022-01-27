@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 .navbar {
     width:100%;
     z-index: 1088;
@@ -78,6 +81,7 @@
     color: #fff;
     text-decoration: none;
     padding: 7px 15px;
+    
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
   }

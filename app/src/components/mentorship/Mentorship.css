@@ -19,7 +19,9 @@
     
 }
 .mentorship .container button{
-    background-color: rgb(61,175,181);
+    /* background-color: rgb(61,175,181); */
+    background-color: black;
+    color:rgb(255, 255, 255);
     width:200px;
     height:50px;
     font-size: 1rem;
@@ -31,4 +33,5 @@
 .mentorship .container button:hover{
     background-color: transparent;
     border: 1px solid black;
+    color:white;
 }
